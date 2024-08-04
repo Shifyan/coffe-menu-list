@@ -20,7 +20,7 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div className="switch-btn flex gap-5 justify-center font-medium">
+              <div className="switch-btn flex gap-5 justify-center font-medium mb-12">
                 <button className="border border-[#6F757C] py-2 px-3 rounded-lg bg-[#6F757C]">
                   All Product
                 </button>
@@ -28,7 +28,21 @@ function App() {
                   Available Now
                 </button>
               </div>
-              <div className="menu-list-container"></div>
+              <div className="menu-list-container flex justify-center">
+                <div className="grid grid-cols-3 gap-10">
+                  <div className="menu">
+                    <div className="w-[16rem] h-[10rem] bg-black rounded-xl"></div>
+                    <div className="menu-cap flex justify-between items-center my-3">
+                      <h1 className="font-medium text-lg">Nama Menu</h1>
+                      <h1 className="py-1 px-2 text-black text-sm font-bold rounded-md bg-[#BEE3CC]">
+                        $5.20
+                      </h1>
+                    </div>
+                  </div>
+                  <div className="w-[16rem] h-[10rem] bg-black rounded-xl"></div>
+                  <div className="w-[16rem] h-[10rem] bg-black rounded-xl"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
