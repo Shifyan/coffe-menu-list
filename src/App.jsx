@@ -44,9 +44,11 @@ function App() {
                 {/* Content Header */}
                 <ContentHeader />
                 {/* Content Header End */}
+
                 {/* Switch Button */}
                 <SwitchBtn getData={getData} getAvailable={getAvailable} />
                 {/* Switch Button End*/}
+
                 {/* Menu List */}
                 <MenuList data={data} />
                 {/* Menu List End*/}
