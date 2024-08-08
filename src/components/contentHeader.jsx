@@ -1,6 +1,6 @@
 export default function ContentHeader() {
   return (
-    <div className="z-40 content-header flex flex-col items-center mb-5">
+    <div className="content-header flex flex-col items-center mb-5">
       <h1 className="font-bold text-2xl lg:text-4xl mb-3">Our Collection</h1>
       <div className="mx-[1rem] lg:mx-[12rem] text-[#6F757C] text-sm lg:text-base font-semibold text-center">
         <p>
